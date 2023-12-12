@@ -1,0 +1,107 @@
+body {
+    text-align: center;
+}
+
+p {
+   margin: 0; 
+}
+
+
+/* Starting display for Divs */
+#roundDiv, #winReqDiv, #summaryOneDiv, #summaryTwoDiv, #selectionsDiv, #nextRoundDiv, #scoresDiv {
+    display: none;
+}
+
+
+
+/* Main Loaded Page Styling */
+#introTextDiv {
+    font-size: 2rem;
+    margin: 2rem 0 3rem 0;
+}
+
+#starterDiv {
+    margin: 2.5rem 0;
+}
+
+#startBtn {
+   font-size: 2rem;
+   padding: 1rem 2rem;
+   background-color: green;
+   color: white;
+   border-radius: 10px; 
+}
+
+#startBtn:hover {
+    font-weight: bold;
+}
+
+/* Game Styling */
+#roundDiv {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#winReqDiv {
+    font-style: italic;
+    margin-bottom: 1.5rem;
+}
+
+#summaryOneDiv, #summaryTwoDiv {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+}
+
+.sBtn, #nextRoundBtn {
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+}
+
+#nextRoundDiv {
+    margin: 1.5rem 0;
+}
+
+#selectionsDiv {
+    margin-bottom: 2rem;
+}
+
+#paperBtn {
+    margin: 0 30px;
+}
+
+#scoresDiv {
+    width: 40%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.scoreText {
+    font-size: 1.5rem;
+}
+
+.scoreBox {
+    width: 150px;
+    height: 150px;
+    background-color: lightgray;
+    border: 1px solid black;
+    font-size: 5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Winner Styling */
+.winner {
+    background-color: green;
+}
+
+
+
+
+
+
+
